@@ -1,0 +1,9 @@
+auth.json
+/bin
+/context-mode
+/git
+/npm
+/sessions
+
+*.bak
+*.log

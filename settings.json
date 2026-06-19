@@ -1,0 +1,53 @@
+{
+  "lastChangelogVersion": "0.79.1",
+  "defaultProvider": "llama-swap",
+  "defaultModel": "qwen3.6-35b-a3b",
+  "hideThinkingBlock": false,
+  "defaultThinkingLevel": "off",
+  "packages": [
+    {
+      "source": "npm:context-mode",
+      "extensions": [
+        "+build/adapters/pi/extension.js"
+      ],
+      "skills": [
+        "+skills/context-mode/SKILL.md",
+        "+skills/ctx-doctor/SKILL.md",
+        "+skills/ctx-insight/SKILL.md",
+        "+skills/ctx-purge/SKILL.md",
+        "+skills/ctx-stats/SKILL.md",
+        "+skills/ctx-upgrade/SKILL.md"
+      ]
+    },
+    {
+      "source": "git:github.com/tmustier/pi-extensions",
+      "extensions": [
+        "-arcade/picman.ts",
+        "-arcade/ping.ts",
+        "-arcade/mario-not/mario-not.ts",
+        "-agent-guidance/agent-guidance.ts",
+        "-arcade/spice-invaders.ts",
+        "-arcade/tetris.ts",
+        "-pi-ralph-wiggum/index.ts"
+      ],
+      "skills": [
+        "-pi-ralph-wiggum/SKILL.md",
+        "+extending-pi/SKILL.md",
+        "+extending-pi/skill-creator/SKILL.md"
+      ]
+    },
+    "npm:pi-btw",
+    "npm:pi-caveman",
+    "git:github.com/OleMussmann/pi-extension-plan-mode-default/",
+    "npm:pi-rtk-optimizer",
+    "npm:pi-rewind",
+    "npm:@aliou/pi-guardrails",
+    "npm:pi-web-access",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "git:github.com/OleMussmann/pi-frame"
+  ],
+  "extensions": [
+    "+extensions/questionnaire.ts"
+  ],
+  "theme": "dark"
+}
