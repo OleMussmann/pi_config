@@ -1,24 +1,10 @@
 {
-  "lastChangelogVersion": "0.79.1",
+  "lastChangelogVersion": "0.80.6",
   "defaultProvider": "llama-swap",
-  "defaultModel": "qwen3.6-35b-a3b",
+  "defaultModel": "qwen3.6-35b-a3b-mtp",
   "hideThinkingBlock": false,
   "defaultThinkingLevel": "off",
   "packages": [
-    {
-      "source": "npm:context-mode",
-      "extensions": [
-        "+build/adapters/pi/extension.js"
-      ],
-      "skills": [
-        "+skills/context-mode/SKILL.md",
-        "+skills/ctx-doctor/SKILL.md",
-        "+skills/ctx-insight/SKILL.md",
-        "+skills/ctx-purge/SKILL.md",
-        "+skills/ctx-stats/SKILL.md",
-        "+skills/ctx-upgrade/SKILL.md"
-      ]
-    },
     {
       "source": "git:github.com/tmustier/pi-extensions",
       "extensions": [
@@ -28,7 +14,8 @@
         "-agent-guidance/agent-guidance.ts",
         "-arcade/spice-invaders.ts",
         "-arcade/tetris.ts",
-        "-pi-ralph-wiggum/index.ts"
+        "-pi-ralph-wiggum/index.ts",
+        "-tab-status/tab-status.ts"
       ],
       "skills": [
         "-pi-ralph-wiggum/SKILL.md",
@@ -42,9 +29,9 @@
     "npm:pi-rtk-optimizer",
     "npm:pi-rewind",
     "npm:@aliou/pi-guardrails",
-    "npm:pi-web-access",
     "npm:@juicesharp/rpiv-ask-user-question",
-    "git:github.com/OleMussmann/pi-frame"
+    "git:github.com/OleMussmann/pi-frame",
+    "npm:pi-web-access"
   ],
   "extensions": [
     "+extensions/questionnaire.ts"
