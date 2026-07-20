@@ -1,9 +1,9 @@
 {
-  "lastChangelogVersion": "0.80.6",
-  "defaultProvider": "llama-swap",
-  "defaultModel": "qwen3.6-35b-a3b-mtp",
+  "lastChangelogVersion": "0.80.7",
+  "defaultProvider": "openrouter",
+  "defaultModel": "tencent/hy3:free",
   "hideThinkingBlock": false,
-  "defaultThinkingLevel": "off",
+  "defaultThinkingLevel": "minimal",
   "packages": [
     {
       "source": "git:github.com/tmustier/pi-extensions",
@@ -24,14 +24,13 @@
       ]
     },
     "npm:pi-btw",
-    "npm:pi-caveman",
-    "git:github.com/OleMussmann/pi-extension-plan-mode-default/",
+    "-npm:pi-caveman",
     "npm:pi-rtk-optimizer",
     "npm:pi-rewind",
     "npm:@aliou/pi-guardrails",
-    "npm:@juicesharp/rpiv-ask-user-question",
-    "git:github.com/OleMussmann/pi-frame",
-    "npm:pi-web-access"
+    "npm:pi-web-access",
+    "npm:@eko24ive/pi-ask",
+    "git:github.com/OleMussmann/pi-additions"
   ],
   "extensions": [
     "+extensions/questionnaire.ts"
