@@ -1,9 +1,9 @@
 {
-  "lastChangelogVersion": "0.80.7",
-  "defaultProvider": "openrouter",
-  "defaultModel": "tencent/hy3:free",
+  "lastChangelogVersion": "0.80.10",
+  "defaultProvider": "llama-swap",
+  "defaultModel": "qwen3.6-35b-a3b-mtp",
   "hideThinkingBlock": false,
-  "defaultThinkingLevel": "minimal",
+  "defaultThinkingLevel": "off",
   "packages": [
     {
       "source": "git:github.com/tmustier/pi-extensions",
@@ -30,7 +30,8 @@
     "npm:@aliou/pi-guardrails",
     "npm:pi-web-access",
     "npm:@eko24ive/pi-ask",
-    "git:github.com/OleMussmann/pi-additions"
+    "git:github.com/OleMussmann/pi-additions",
+    "git:github.com/DietrichGebert/ponytail"
   ],
   "extensions": [
     "+extensions/questionnaire.ts"
