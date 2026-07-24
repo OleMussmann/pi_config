@@ -1,0 +1,5 @@
+{
+  "toolsRequiringInteraction": [
+    "ask_user"
+  ]
+}
